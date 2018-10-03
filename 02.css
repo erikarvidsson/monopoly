@@ -1,0 +1,147 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.container{
+    border: 5px solid #f1eec1;
+    background-color: black;
+    display: grid;
+    width: 900px;
+    height: 900px;
+    grid-template-columns: 3fr repeat(9, 2fr) 3fr;
+    grid-template-rows: 3fr repeat(9, 2fr) 3fr;
+    grid-gap: 5px 5px;
+  }
+
+
+.grid-box{
+  background-color: #D2E5D2;
+}
+
+
+.toptext{
+  display: flex;
+  text-align: center;
+  width: 100% ;
+  height: 100%;
+  font-size: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.toptext2{
+  transform: rotate(90deg;);
+  display: flex;
+  text-align: center;
+  width: 100% ;
+  height: 100%;
+  font-size: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toptext2 h2{
+  text-align: center;
+  font-family: sans-serif;
+  transform: rotate(90deg);
+  justify-content: flex-end;
+}
+
+.topcolor {
+  background-color: red;
+  width: 100%;
+  height: 20px;
+  border-top: 5px solid black;
+}
+
+.toptext2 .topcolor {
+  width:20px;
+  height: 100%;
+  border-left: 5px solid black;
+  border-top: 0;
+}
+
+h2{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  transform: rotate(180deg);
+}
+
+
+.b2{
+   grid-row-end: span 9;
+   grid-column-end: span 9;
+    display: flex;
+
+}
+
+
+.c2, .e2, .i2, .d3, .h3{
+  transform: rotate(180deg);
+}
+
+.j3, .k3, .b4, .e4, .g4{
+  transform: rotate(180deg);
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.purp {
+  background-color: purple;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.car{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transform: rotate(145deg);
+
+}
+
+.car img{
+  max-width: 60%;
+  max-height: 60%;
+
+}
+
+.carh2 {
+  text-align: center;
+  writing-mode: sideways-lr: ;
+  transform: rotate(360deg);
+}
